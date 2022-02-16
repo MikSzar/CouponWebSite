@@ -1,0 +1,21 @@
+INSERT INTO user ( user_id, firstname, lastname) VALUES ( 1,'Walter', 'White');
+INSERT INTO user ( user_id, firstname, lastname) VALUES ( 2,'John', 'Smith');
+INSERT INTO user ( user_id, firstname, lastname) VALUES ( 3,'Tom', 'Black');
+
+INSERT INTO coupon ( coupon_id, value, remaintimes) VALUES ( 1,'10.0', '3');
+INSERT INTO coupon ( coupon_id, value, remaintimes) VALUES ( 2,'11.0', '4');
+INSERT INTO coupon ( coupon_id, value, remaintimes) VALUES ( 3,'12.0', '1');
+INSERT INTO coupon ( coupon_id, value, remaintimes) VALUES ( 4,'13.0', '5');
+INSERT INTO coupon ( coupon_id, value, remaintimes) VALUES ( 5,'14.0', '3');
+INSERT INTO coupon ( coupon_id, value, remaintimes) VALUES ( 6,'15.0', '2');
+
+
+INSERT INTO user_coupons ( user_user_id, coupons_coupon_id) VALUES (1,1);
+INSERT INTO user_coupons ( user_user_id, coupons_coupon_id) VALUES (1,2);
+INSERT INTO user_coupons ( user_user_id, coupons_coupon_id) VALUES (2,3);
+INSERT INTO user_coupons ( user_user_id, coupons_coupon_id) VALUES (2,4);
+INSERT INTO user_coupons ( user_user_id, coupons_coupon_id) VALUES (2,5);
+INSERT INTO user_coupons ( user_user_id, coupons_coupon_id) VALUES (3,6);
+
+
+
